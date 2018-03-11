@@ -9,7 +9,7 @@ with open(budgetCSV, newline="") as csvfile:
   csvreader= csv.reader(csvfile, delimiter=",")
 
   # define the function 
-  def getTotals(budgetData)
+  def getTotals(budgetData):
 
       # Total number of months included in the dataset
       totalMonths = len(set(budgetData[1])
